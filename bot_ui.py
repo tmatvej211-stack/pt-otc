@@ -48,7 +48,7 @@ def main_menu(user_id):
         )
         # Row bottom: Support
         keyboard.add(
-            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/your_support')
+            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/Playerok_OTC_Manager')
         )
 
     elif is_admin_own_team(user_id):
@@ -72,7 +72,7 @@ def main_menu(user_id):
             InlineKeyboardButton(_t(user_id, 'btn_admin_panel'), callback_data='admin_panel')
         )
         keyboard.add(
-            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/your_support')
+            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/Playerok_OTC_Manager')
         )
 
     elif is_team_worker(user_id):
@@ -96,7 +96,7 @@ def main_menu(user_id):
             InlineKeyboardButton(_t(user_id, 'btn_my_mammoths'), callback_data='my_mammoths')
         )
         keyboard.add(
-            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/your_support')
+            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/Playerok_OTC_Manager')
         )
 
     else:
@@ -123,7 +123,7 @@ def main_menu(user_id):
         )
         # Row bottom: Support
         keyboard.add(
-            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/your_support')
+            PremiumButton(_t(user_id, 'btn_support'), '📞', '5904258298764334001', url='https://t.me/Playerok_OTC_Manager')
         )
 
     welcome_text = get_welcome_text(user_id)
@@ -243,7 +243,7 @@ def withdraw_balance_menu(user_id):
 • USDT: 10
 • STARS: 1000</i>
 
-<b>{_t(user_id, 'balance_contact_support')}</b> @your_support"""
+<b>{_t(user_id, 'balance_contact_support')}</b> @https://t.me/Playerok_OTC_Manager"""
 
     keyboard = InlineKeyboardMarkup(row_width=1)
     keyboard.add(InlineKeyboardButton(_t(user_id, 'btn_to_profile'), callback_data='my_profile'))
@@ -271,7 +271,7 @@ def verification_menu_keyboard(user_id=None):
         InlineKeyboardButton(_t(user_id, 'btn_pay_stars'), callback_data='pay_verification_stars'),
     )
     keyboard.add(
-        InlineKeyboardButton(_t(user_id, 'btn_support'), url='https://t.me/your_support'),
+        InlineKeyboardButton(_t(user_id, 'btn_support'), url='https://t.me/Playerok_OTC_Manager'),
         InlineKeyboardButton(_t(user_id, 'btn_back_menu'), callback_data='main_menu')
     )
     return keyboard
