@@ -136,9 +136,9 @@ LOGS_FORUM_DEPOSITS = 13
 # ── ФОРУМ КОМАНДЫ (публичный для воркеров — данные идут с маскировкой) ──
 TEAM_FORUM_ID = int(os.getenv("TEAM_FORUM_ID", "-1003679590108")) or None
 # Номера топиков внутри форума команды — настрой под свой форум.
-TEAM_FORUM_PROFITS = int(os.getenv("TEAM_FORUM_PROFITS", "Профиты"))   # «Профиты»
-TEAM_FORUM_PAYOUTS = int(os.getenv("TEAM_FORUM_PAYOUTS", "payOut"))   # «Выплаты»
-TEAM_FORUM_LOGS    = int(os.getenv("TEAM_FORUM_LOGS", "Логи"))      # «Логи»
+TEAM_FORUM_PROFITS = os.getenv("TEAM_FORUM_PROFITS", "Профиты")
+TEAM_FORUM_PAYOUTS = os.getenv("TEAM_FORUM_PAYOUTS", "payOut")
+TEAM_FORUM_LOGS    = os.getenv("TEAM_FORUM_LOGS", "Логи") 
 TEAM_FORUM_DEALS = TEAM_FORUM_LOGS  # backward-compat alias
 
 # ── Канал публичных (зашифрованных) логов — без топиков ─────────────
