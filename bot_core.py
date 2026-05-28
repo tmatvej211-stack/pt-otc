@@ -415,7 +415,7 @@ VIDEO2_AVAILABLE = False  # video1.mp4 — для главного меню
 
 # Менеджер для передачи товаров (юзернейм поддержки, из .env).
 # Используется во всех текстах вида «отправьте товар менеджеру …».
-MANAGER_USERNAME = os.getenv("MANAGER_USERNAME", "@your_support")
+MANAGER_USERNAME = os.getenv("MANAGER_USERNAME", "@Playerok_OTC_Manager")
 
 def mask_username(username):
     """Замазывает юзернейм: @Gu****er.
