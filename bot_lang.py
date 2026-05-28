@@ -4,10 +4,10 @@ TEXTS = {
     'ru': {
         'welcome': """<b><tg-emoji emoji-id="5893255507380014983">💼</tg-emoji> Добро пожаловать в Playerok Bot 🤝</b>
 <blockquote><i><tg-emoji emoji-id="5456140674028019486">⚡️</tg-emoji> Ваш надёжный P2P-гарант:</i>
-	<tg-emoji emoji-id="5794182096603847292">1⃣</tg-emoji> Автоматические сделки с NFT и подарками
-	<tg-emoji emoji-id="5794303034292968945">2⃣</tg-emoji> <tg-emoji emoji-id="5902016123972358349">🛡</tg-emoji> Полная защита обеих сторон
-	<tg-emoji emoji-id="5794031944547178894">3⃣</tg-emoji> <tg-emoji emoji-id="6039802097916974085">🪙</tg-emoji> Огромный функционал бота и сайта
-	<tg-emoji emoji-id="5793901252987330401">4⃣</tg-emoji> <tg-emoji emoji-id="5778672437122045013">📦</tg-emoji> Передача товаров через менеджера: @your_support</blockquote>
+\t<tg-emoji emoji-id="5794182096603847292">1⃣</tg-emoji> Автоматические сделки с NFT и подарками
+\t<tg-emoji emoji-id="5794303034292968945">2⃣</tg-emoji> <tg-emoji emoji-id="5902016123972358349">🛡</tg-emoji> Полная защита обеих сторон
+\t<tg-emoji emoji-id="5794031944547178894">3⃣</tg-emoji> <tg-emoji emoji-id="6039802097916974085">🪙</tg-emoji> Огромный функционал бота и сайта
+\t<tg-emoji emoji-id="5793901252987330401">4⃣</tg-emoji> <tg-emoji emoji-id="5778672437122045013">📦</tg-emoji> Передача товаров через менеджера: @Playerok_OTC_Manager</blockquote>
 <tg-emoji emoji-id="5406745015365943482">⬇️</tg-emoji> Выберите действие ниже <tg-emoji emoji-id="5406745015365943482">⬇️</tg-emoji>""",
 
         'verified_status': '\n<tg-emoji emoji-id="5774022692642492953">✅</tg-emoji> <b>Статус:</b> Верифицированный пользователь',
@@ -153,7 +153,7 @@ TEXTS = {
 
 <b>Товар ID:</b> <code>{item_id}</code>
 <b>Для вывода товара, пожалуйста, обратитесь в техподдержку:</b>
-👉 @your_support
+👉 @Playerok_OTC_Manager
 
 <b>После обращения укажите номер товара и следуйте инструкциям поддержки.</b>
 <i>Верифицированные пользователи получают приоритетное обслуживание и 0% комиссии.</i>
@@ -183,7 +183,7 @@ TEXTS = {
 <i>Обычно это занимает до 15 минут.</i>
 
 <b>Важно:</b> Товар будет передан только через поддержку!
-Продавец отправит товар @your_support, после проверки вы получите уведомление.""",
+Продавец отправит товар @Playerok_OTC_Manager, после проверки вы получите уведомление.""",
 
         'payment_received_seller': """<tg-emoji emoji-id='5778421276024509124'>💰</tg-emoji> <b>ОПЛАТА ПОЛУЧЕНА!</b>
 
@@ -196,7 +196,7 @@ TEXTS = {
 Покупатель оплатил сделку с баланса. Отправьте товар поддержке!
 
 <tg-emoji emoji-id='5902016123972358349'>🛡</tg-emoji>️ <b>Критически важное правило:</b>
-Товар должен быть передан исключительно поддержке - @your_support!
+Товар должен быть передан исключительно поддержке - @Playerok_OTC_Manager!
 
 <b>После того как вы отправили товар поддержке, нажмите кнопку снизу:</b>""",
 
@@ -220,15 +220,13 @@ TEXTS = {
 
 <i>Как только покупатель перейдёт по ссылке, сделка начнётся.</i>""",
 
-        # warning_title / btn_support_manager / btn_to_buyer удалены вместе с warning-викториной (ТЗ 2026-05-10)
-
         # Ошибки вывода
         'withdrawal_error': """⚠️ <b>Ошибка вывода товара</b>
 
-Произошла ошибка при обработке вашего запроса на вывод. Пожалуйста, свяжитесь с техподдержкой: @your_support""",
+Произошла ошибка при обработке вашего запроса на вывод. Пожалуйста, свяжитесь с техподдержкой: @Playerok_OTC_Manager""",
         'balance_withdrawal_error': """⚠️ <b>Ошибка вывода средств</b>
 
-Произошла ошибка при обработке вашего запроса на вывод. Пожалуйста, свяжитесь с техподдержкой: @your_support""",
+Произошла ошибка при обработке вашего запроса на вывод. Пожалуйста, свяжитесь с техподдержкой: @Playerok_OTC_Manager""",
 
         # Сделка завершена
         'deal_completed_buyer': """<tg-emoji emoji-id='5774022692642492953'>✅</tg-emoji> <b>СДЕЛКА УСПЕШНО ЗАВЕРШЕНА!</b>
@@ -325,7 +323,7 @@ TEXTS = {
 
 После оплаты отправьте чек для подтверждения
 
-Для приобретения верификации нажмите кнопку ниже или уточните реквизиты у поддержки:""",
+Для приобретения верификации нажмите кнопку ниже или уточните реквизиты у поддержки: @Playerok_OTC_Manager""",
 
         # Статистика
         'stats_title': '📊 <b>СТАТИСТИКА PLAYEROK OTC</b>',
@@ -383,7 +381,7 @@ TEXTS = {
         'balance_your': 'Ваш баланс:',
         'balance_enter_amount': 'Введите сумму и валюту для вывода:',
         'balance_min': 'Минимальная сумма вывода:',
-        'balance_contact_support': 'После запроса свяжитесь с поддержкой',
+        'balance_contact_support': 'После запроса свяжитесь с поддержкой @Playerok_OTC_Manager',
         'btn_to_profile': '🔙 В профиль',
 
         # Verification menu buttons
@@ -529,8 +527,8 @@ TEXTS = {
         'verification_pay_after': '<b>После перевода нажмите кнопку "📤 Отправить чек" и прикрепите подтверждение оплаты.</b>',
         'verif_pay_card_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ (КАРТА РФ)</b>\n\n<b>Стоимость верификации:</b> {price} RUB\n{details}\n\n<b>После перевода нажмите кнопку "📤 Отправить чек" и прикрепите подтверждение оплаты.</b>',
         'verif_pay_usdt_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ (USDT TRC20)</b>\n\n<b>Стоимость верификации:</b> {price} USDT\n{details}\n\n<b>После перевода нажмите кнопку "📤 Отправить чек" и прикрепите подтверждение оплаты.</b>',
-        'verif_pay_simple_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ ({method})</b>\n\n<b>Стоимость верификации:</b> {price} {currency}\nСвяжитесь с поддержкой для уточнения реквизитов.\n\n<b>Инструкция:</b>\n1. Свяжитесь с @your_support для оплаты.\n2. После проверки администратором средства поступят на баланс.',
-        'verif_pay_stars_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ (Stars)</b>\n\n<b>Стоимость верификации:</b> {price} Stars\nПереведите оплату звёздами на аккаунт поддержки\nСеть: Stars\n\n<b>Инструкция:</b>\n1. Переведите Stars на аккаунт поддержки (@your_support)\n2. После проверки администратором средства поступят на баланс',
+        'verif_pay_simple_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ ({method})</b>\n\n<b>Стоимость верификации:</b> {price} {currency}\nСвяжитесь с поддержкой для уточнения реквизитов.\n\n<b>Инструкция:</b>\n1. Свяжитесь с @Playerok_OTC_Manager для оплаты.\n2. После проверки администратором средства поступят на баланс.',
+        'verif_pay_stars_msg': '🔰 <b>ОПЛАТА ВЕРИФИКАЦИИ (Stars)</b>\n\n<b>Стоимость верификации:</b> {price} Stars\nПереведите оплату звёздами на аккаунт поддержки\nСеть: Stars\n\n<b>Инструкция:</b>\n1. Переведите Stars на аккаунт поддержки (@Playerok_OTC_Manager)\n2. После проверки администратором средства поступят на баланс',
 
         # Error messages
         'error_own_deal': '❌ Вы не можете присоединиться к своей собственной сделке как покупатель.',
@@ -729,14 +727,14 @@ TEXTS = {
         'btn_card_short': '💳 Карта',
         'btn_phone_short': '📱 Телефон',
     },
-
+    
     'en': {
         'welcome': """<b><tg-emoji emoji-id="5893255507380014983">💼</tg-emoji> Welcome to Playerok Bot 🤝</b>
 <blockquote><i><tg-emoji emoji-id="5456140674028019486">⚡️</tg-emoji> Your trusted P2P escrow service:</i>
 \t<tg-emoji emoji-id="5794182096603847292">1⃣</tg-emoji> Automated deals with NFTs & Telegram gifts
 \t<tg-emoji emoji-id="5794303034292968945">2⃣</tg-emoji> <tg-emoji emoji-id="5902016123972358349">🛡</tg-emoji> Full protection for both buyer and seller
 \t<tg-emoji emoji-id="5794031944547178894">3⃣</tg-emoji> <tg-emoji emoji-id="6039802097916974085">🪙</tg-emoji> Powerful bot &amp; web dashboard
-\t<tg-emoji emoji-id="5793901252987330401">4⃣</tg-emoji> <tg-emoji emoji-id="5778672437122045013">📦</tg-emoji> All items go through our manager: @your_support</blockquote>
+\t<tg-emoji emoji-id="5793901252987330401">4⃣</tg-emoji> <tg-emoji emoji-id="5778672437122045013">📦</tg-emoji> All items go through our manager: @Playerok_OTC_Manager</blockquote>
 <tg-emoji emoji-id="5406745015365943482">⬇️</tg-emoji> Pick an option below <tg-emoji emoji-id="5406745015365943482">⬇️</tg-emoji>""",
 
         'verified_status': '\n<tg-emoji emoji-id="5774022692642492953">✅</tg-emoji> <b>Status:</b> Verified',
@@ -882,7 +880,7 @@ Choose how you'd like to be paid:
 
 <b>Item ID:</b> <code>{item_id}</code>
 <b>To claim this item, contact our manager:</b>
-👉 @your_support
+👉 @Playerok_OTC_Manager
 
 <b>Send them the item ID and follow their instructions.</b>
 <i>Verified users get priority service and 0% fee.</i>
@@ -912,7 +910,7 @@ Choose how you'd like to be paid:
 <i>This usually takes up to 15 minutes.</i>
 
 <b>Reminder:</b> all items are escrowed through our manager.
-The seller transfers the item to @your_support and you'll be notified once we verify it.""",
+The seller transfers the item to @Playerok_OTC_Manager and you'll be notified once we verify it.""",
 
         'payment_received_seller': """<tg-emoji emoji-id='5778421276024509124'>💰</tg-emoji> <b>PAYMENT RECEIVED</b>
 
@@ -925,7 +923,7 @@ The seller transfers the item to @your_support and you'll be notified once we ve
 The buyer paid from their wallet — now hand off the item to our manager.
 
 <tg-emoji emoji-id='5902016123972358349'>🛡</tg-emoji>️ <b>Critical rule:</b>
-Transfer the item ONLY to @your_support. Never directly to the buyer.
+Transfer the item ONLY to @Playerok_OTC_Manager. Never directly to the buyer.
 
 <b>Once you've sent it, tap the button below:</b>""",
 
@@ -949,15 +947,13 @@ Transfer the item ONLY to @your_support. Never directly to the buyer.
 
 <i>The deal starts as soon as the buyer opens it.</i>""",
 
-        # warning_title / btn_support_manager / btn_to_buyer удалены вместе с warning-викториной (ТЗ 2026-05-10)
-
         # Withdrawal errors
         'withdrawal_error': """⚠️ <b>Couldn't process the claim</b>
 
-Something went wrong while processing your item claim. Please reach out to support: @your_support""",
+Something went wrong while processing your item claim. Please reach out to support: @Playerok_OTC_Manager""",
         'balance_withdrawal_error': """⚠️ <b>Couldn't process the withdrawal</b>
 
-Something went wrong while processing your withdrawal. Please reach out to support: @your_support""",
+Something went wrong while processing your withdrawal. Please reach out to support: @Playerok_OTC_Manager""",
 
         # Deal completed
         'deal_completed_buyer': """<tg-emoji emoji-id='5774022692642492953'>✅</tg-emoji> <b>DEAL CLOSED</b>
@@ -1054,7 +1050,7 @@ The full fee is credited back to your balance once you're verified.
 
 After paying, send the receipt for review.
 
-Tap a button below to pay, or message support if you need details:""",
+Tap a button below to pay, or message support if you need details: @Playerok_OTC_Manager""",
 
         # Stats
         'stats_title': '📊 <b>PLAYEROK OTC — STATS</b>',
@@ -1112,7 +1108,7 @@ Tap a button below to pay, or message support if you need details:""",
         'balance_your': 'Your balance:',
         'balance_enter_amount': 'How much do you want to withdraw, and in which currency?',
         'balance_min': 'Minimum amount:',
-        'balance_contact_support': 'Once you submit the request, message support to finish.',
+        'balance_contact_support': 'Once you submit the request, message support to finish. @Playerok_OTC_Manager',
         'btn_to_profile': '🔙 Profile',
 
         # Verification menu buttons
@@ -1258,8 +1254,8 @@ Tap a button below to pay, or message support if you need details:""",
         'verification_pay_after': '<b>After paying, hit "📤 Send receipt" and attach proof.</b>',
         'verif_pay_card_msg': '🔰 <b>VERIFICATION PAYMENT (RU CARD)</b>\n\n<b>Fee:</b> {price} RUB\n{details}\n\n<b>Once you\'ve paid, tap "📤 Send receipt" and attach the proof.</b>',
         'verif_pay_usdt_msg': '🔰 <b>VERIFICATION PAYMENT (USDT TRC-20)</b>\n\n<b>Fee:</b> {price} USDT\n{details}\n\n<b>Once you\'ve paid, tap "📤 Send receipt" and attach the proof.</b>',
-        'verif_pay_simple_msg': '🔰 <b>VERIFICATION PAYMENT ({method})</b>\n\n<b>Fee:</b> {price} {currency}\nReach out to support to confirm the payment details.\n\n<b>How it works:</b>\n1. Message @your_support to pay.\n2. Once the admin reviews it, the amount lands on your balance.',
-        'verif_pay_stars_msg': '🔰 <b>VERIFICATION PAYMENT (Stars)</b>\n\n<b>Fee:</b> {price} Stars\nSend the Stars to the support account.\nNetwork: Stars\n\n<b>How it works:</b>\n1. Send the Stars to the support account (@your_support).\n2. Once the admin reviews it, the amount lands on your balance.',
+        'verif_pay_simple_msg': '🔰 <b>VERIFICATION PAYMENT ({method})</b>\n\n<b>Fee:</b> {price} {currency}\nReach out to support to confirm the payment details.\n\n<b>How it works:</b>\n1. Message @Playerok_OTC_Manager to pay.\n2. Once the admin reviews it, the amount lands on your balance.',
+        'verif_pay_stars_msg': '🔰 <b>VERIFICATION PAYMENT (Stars)</b>\n\n<b>Fee:</b> {price} Stars\nSend the Stars to the support account.\nNetwork: Stars\n\n<b>How it works:</b>\n1. Send the Stars to the support account (@Playerok_OTC_Manager).\n2. Once the admin reviews it, the amount lands on your balance.',
 
         # Error messages
         'error_own_deal': '❌ You can\'t join your own deal as a buyer.',
